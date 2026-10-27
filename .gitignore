@@ -1,0 +1,22 @@
+cat > .gitignore <<'EOF'
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+EOF
